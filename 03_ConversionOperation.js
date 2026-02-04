@@ -23,4 +23,23 @@ let someNumber = 33
 let strNumber = String(someNumber)
 console.log(strNumber);
 
+ // ================= Operations =================
+ console.log("1" + 2);
+ console.log(1 + "2");
+ console.log(1 + "2" + "2");
+ console.log("1" + 2 + 2);
+ console.log(1 + 2 + 2);
  
+
+
+
+
+
+
+
+
+
+
+
+
+
