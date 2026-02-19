@@ -1,5 +1,6 @@
 console.log("2" > 1);
 
+// It can make you fall in Confusion    
 console.log("Null:");
 console.log(null > 0);
 console.log(null == 0);
