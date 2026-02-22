@@ -60,6 +60,20 @@ console.log("Symbol: ", typeof id);
 console.log("BigInt: ", typeof bigNumber);
 
 
+// ==============================================================================
+
+// ---- Stack (Primitive ) and Heap (Non-Primitive Types) ----
+
+// --> Variable defined in Stack always gives us a copy of the original variable
+// --> Object or anything defined in Heap always gives us its reference
+
+let MyName = "Habib Tariq"
+let OrignalName = MyName
+OrignalName = "M. Habib Tariq"
+
+console.log(MyName);
+console.log(OrignalName);
+
 
 
 
