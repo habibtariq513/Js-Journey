@@ -59,6 +59,7 @@ console.log("Undefined: ", typeof userEmail);
 console.log("Symbol: ", typeof id);
 console.log("BigInt: ", typeof bigNumber);
 
+console.log("\n");
 
 // ==============================================================================
 
@@ -67,14 +68,26 @@ console.log("BigInt: ", typeof bigNumber);
 // --> Variable defined in Stack always gives us a copy of the original variable
 // --> Object or anything defined in Heap always gives us its reference
 
+// => STATIC example
 let MyName = "Habib Tariq"
 let OrignalName = MyName
 OrignalName = "M. Habib Tariq"
 
 console.log(MyName);
-console.log(OrignalName);
+console.log(OrignalName); // won't make any change in MyName
 
 
+// => HEAP example
+let user1 = {
+    email: "user@gmial.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+user2.email = "Habib@gmail.com"
+
+console.log("User 1 Email:", user1.email);
+console.log("User 2 Email:", user2.email);
 
 
 
