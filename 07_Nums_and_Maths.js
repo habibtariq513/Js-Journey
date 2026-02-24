@@ -1,5 +1,7 @@
 // ====================== Numbers ======================
 
+console.log("\n====================== Numbers ======================");
+
 const score = 400
 console.log(score);
 
@@ -27,6 +29,27 @@ console.log(` --> Indian Standard: ${hundreds.toLocaleString('en-IN')}`);
 
 
 // ====================== Maths ======================
+console.log("\n====================== Maths ======================");
+
+// abs() Method {Abslute}
+console.log(`abs() Func: ${Math.abs(-4)}`);
+
+// round() Mehtod
+console.log(`round() Func: ${Math.round(4.6)}`);
+
+// ceil() Method
+console.log(`ceil() Func: ${Math.ceil(4.6)}`);
+
+// floor() Method
+console.log(`floor() Func: ${Math.floor(4.6)}`);
+
+// min() Method
+console.log(`min() Func: ${Math.min(4, 6, 5, 3, 1)}`);
+
+// max() Method
+console.log(`max() Func: ${Math.max(4, 6, 5, 3, 1)}`);
+
+
 
 
 
