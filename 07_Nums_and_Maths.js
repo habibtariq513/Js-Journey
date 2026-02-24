@@ -49,6 +49,20 @@ console.log(`min() Func: ${Math.min(4, 6, 5, 3, 1)}`);
 // max() Method
 console.log(`max() Func: ${Math.max(4, 6, 5, 3, 1)}`);
 
+// === random() Method ===
+console.log(`\n* Random() Func: ${Math.random()}`);
+console.log(` -> Random() Func: ${(Math.random()*10) + 1}`);
+
+// In order to stay safe from ZERO Case
+console.log(` -> Random() Func: ${(Math.random()*10) + 1}`);
+
+// 
+console.log(` -> Random() Func: ${Math.floor(Math.random()*10) + 1}`);
+
+
+console.log(` -> Random() Func: ${Math.floor(Math.random()*10) + 1}`);
+
+
 
 
 
