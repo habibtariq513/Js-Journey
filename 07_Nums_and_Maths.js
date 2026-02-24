@@ -56,17 +56,57 @@ console.log(` -> Random() Func: ${(Math.random()*10) + 1}`);
 // In order to stay safe from ZERO Case
 console.log(` -> Random() Func: ${(Math.random()*10) + 1}`);
 
-// 
+// It's for the Smallest value due to floor() function
+// -> floor() main aim is to get values without decimals
 console.log(` -> Random() Func: ${Math.floor(Math.random()*10) + 1}`);
 
+// Formula for Random() function
+// min and max defines Range here
+const min = 10  
+const max = 20
 
-console.log(` -> Random() Func: ${Math.floor(Math.random()*10) + 1}`);
+console.log(` -> Random() Func: ${Math.floor(Math.random() * (max - min + 1)) + min}`);
 
+/*
+GitHub Copilot: # Understanding the Random Number Generator Formula
 
+This code generates a **random integer between 10 and 20 (inclusive)**.
 
+## Breaking it down:
 
+### Variables
+- `min = 10` → Lower bound of your range
+- `max = 20` → Upper bound of your range
 
+### The Formula: `Math.floor(Math.random() * (max - min + 1)) + min`
 
+Let's trace through each part:
+
+1. **`Math.random()`** → Generates a decimal between 0 (inclusive) and 1 (exclusive)
+   - Example: `0.543`
+
+2. **`(max - min + 1)`** → Calculates the range size
+   - `(20 - 10 + 1) = 11`
+   - The `+ 1` ensures both min AND max are possible
+
+3. **`Math.random() * (max - min + 1)`** → Scales to your range
+   - `0.543 * 11 = 5.973`
+
+4. **`Math.floor(...)`** → Removes decimals, giving 0 to 10
+   - `Math.floor(5.973) = 5`
+
+5. **`+ min`** → Shifts to your actual range (10-20)
+   - `5 + 10 = 15`
+
+## Result
+You get a random number between **10 and 20** (both inclusive).
+
+### Quick Example Outputs:
+- `Math.random() = 0.1` → `0.1 * 11 = 1.1` → `floor = 1` → `1 + 10 = 11` ✓
+- `Math.random() = 0.9` → `0.9 * 11 = 9.9` → `floor = 9` → `9 + 10 = 19` ✓
+- `Math.random() = 0.99` → `0.99 * 11 = 10.89` → `floor = 10` → `10 + 10 = 20` ✓
+
+*/
 
 
 
