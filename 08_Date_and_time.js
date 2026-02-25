@@ -22,15 +22,25 @@ console.log(`myCreatedDate with Time : ${myCreatedDate.toLocaleString()}`);
 let NewCreatedDate = new Date("02-25-2025") // MM-DD-YY format
 console.log(`NewCreatedDate: ${NewCreatedDate.toLocaleString()}`);
 
-// Time Stamps
+// === Time Stamps ===
 let timeStamps = Date.now()
 console.log(`Time Stamps: ${timeStamps}`);
 
+// Time in Miliseconds
 console.log(`myCreatedDate with getTime(): ${myCreatedDate.getTime()}`);
-console.log(`myCreatedDate with getTime(): ${Math.floor((Date.now())/1000)}`);
 
+// Conversion of time from milisec to seconds
+console.log(`myCreatedDate with getTime(): ${Math.floor((Date.now())/1000)}`); 
 
+let newDate = new Date()
+console.log(`For Month: ${newDate.getMonth() + 1}`);
+console.log(`For Day: ${newDate.getDay()}`);
+console.log(`For Date: ${newDate.getDate()}`);
 
+// LocalString() Hidden things
+console.log(newDate.toLocaleString('default', {
+    weekday: "short"
+}))
 
 
 
