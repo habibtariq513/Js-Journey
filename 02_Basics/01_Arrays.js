@@ -35,15 +35,15 @@ console.log(`Join Method: ${newArr}`);
 console.log(`Join Method: ${typeof newArr}`);
 
 // Slice Method
-// -> It doesn't affect over Actual Array
-// -> End number is not included
+// -> It doesn't affect over Actual Array.
+// -> End number is not included.
 const newArr2 = myArr.slice(1, 4)
 console.log(`\nSlice Method: ${newArr2}`);
 console.log(`Slice Method: ${myArr}`);  // 1,2,3,4,5
 
 // Splice Method
-// -> It affects over Actual Array
-// -> End number is included
+// -> It affects over Actual Array.
+// -> End number is included.
 const newArr3 = myArr.splice(1, 3)
 console.log(`\nSplice Method: ${newArr3}`);
 console.log(`Splice Method: ${myArr}`);  // 1,5
