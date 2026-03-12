@@ -48,7 +48,14 @@ const newArr3 = myArr.splice(1, 3)
 console.log(`\nSplice Method: ${newArr3}`);
 console.log(`Splice Method: ${myArr}`);  // 1,5
 
+const marvel_heros = ["thor", "ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
 
+marvel_heros.push(dc_heros)
+
+// Concatenate Method
+marvel_heros.concat(dc_heros)
+console.log("\n", marvel_heros)
 
 
 
