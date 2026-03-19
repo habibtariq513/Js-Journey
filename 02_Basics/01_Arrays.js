@@ -52,10 +52,18 @@ const marvel_heros = ["thor", "ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
 marvel_heros.push(dc_heros)
+console.log("\n", marvel_heros)
+console.log(`With Index: ${marvel_heros[3][1]}`)
 
 // Concatenate Method
-marvel_heros.concat(dc_heros)
-console.log("\n", marvel_heros)
+const all_heros = marvel_heros.concat(dc_heros)
+console.log(`Concatenate Method: ${all_heros}`)
+
+// Spread Operator
+// -> an alternative of Concatenate Method
+const all_New_Heros = [...marvel_heros, ...dc_heros]
+console.log("\nWith Spread Operator:", all_New_Heros);
+
 
 
 
