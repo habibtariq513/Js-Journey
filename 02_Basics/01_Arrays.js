@@ -64,6 +64,8 @@ console.log(`Concatenate Method: ${all_heros}`)
 const all_New_Heros = [...marvel_heros, ...dc_heros]
 console.log("\nWith Spread Operator:", all_New_Heros);
 
+const real_another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+console.log(real_another_array);
 
 
 
