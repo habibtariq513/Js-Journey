@@ -73,7 +73,7 @@ console.log(Array.from("Hitesh"));
 console.log(Array.from({name: "Hitesh"})); //interesting
 
 
-
+// Conversion of Integers into Array  suing of()
 let score1 = 100
 let score2 = 200
 let score3 = 300
