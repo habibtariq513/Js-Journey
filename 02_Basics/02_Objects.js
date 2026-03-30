@@ -2,7 +2,6 @@
 const mySym = Symbol("Key1")
 
 // Object Literals
-
 const JsUser = {
     name: "Habib",
     [mySym]: "MyKey1",  // usage of Symbol in Object  [Interview Question]
