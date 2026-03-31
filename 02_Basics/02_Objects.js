@@ -15,6 +15,13 @@ const JsUser = {
 console.log("JsUser:", JsUser["email"]);
 console.log("Symbol and Object:", JsUser[mySym]);
 
+// if we want to change the value
+JsUser.email = "habib@systemslimited.com"
+
+// if we want to freeze our OBJECT
+Object.freeze(JsUser)
+JsUser.email = "habib@Netsol.com" // it'll not throw any error but the value won't be changed
+console.log(JsUser);
 
 
 
