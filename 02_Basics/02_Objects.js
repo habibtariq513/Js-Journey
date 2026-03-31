@@ -19,9 +19,22 @@ console.log("Symbol and Object:", JsUser[mySym]);
 JsUser.email = "habib@systemslimited.com"
 
 // if we want to freeze our OBJECT
-Object.freeze(JsUser)
-JsUser.email = "habib@Netsol.com" // it'll not throw any error but the value won't be changed
-console.log(JsUser);
+    // Object.freeze(JsUser)
+    // JsUser.email = "habib@Netsol.com" // it'll not throw any error but the value won't be changed
+    // console.log(JsUser);
 
+// Fucntion
+JsUser.greeting = function() {
+    console.log("Hello Js User");
+}
+
+// console.log('\n Function without (): ', JsUser.greeting);
+console.log('Function with (): ', JsUser.greeting());
+
+JsUser.greetingtwo = function() {
+    console.log(`Hello Js User, ${this.name}`);
+}
+
+console.log('\nGreeting two:', JsUser.greetingtwo());
 
 
