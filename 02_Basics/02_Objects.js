@@ -1,6 +1,9 @@
 // Symbols
 const mySym = Symbol("Key1")
 
+
+// OBJECTS can be singleton and Literals
+
 // Object Literals
 const JsUser = {
     name: "Habib",
@@ -36,5 +39,25 @@ JsUser.greetingtwo = function() {
 }
 
 console.log('\nGreeting two:', JsUser.greetingtwo());
+
+
+
+// Objects Singleton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
