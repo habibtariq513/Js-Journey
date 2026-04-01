@@ -42,7 +42,48 @@ console.log('\nGreeting two:', JsUser.greetingtwo());
 
 
 
-// Objects Singleton
+// ======= Objects Singleton ======= 
+// const tinderUser = new Object()  --> Singleton object
+
+console.log(" \n\n======= Objects Singleton ======= ");
+
+
+const tinderUser = {}
+
+tinderUser.name = "Habib"
+tinderUser.id = "abc321"
+tinderUser.isLoggedIn = false
+
+console.log(tinderUser);
+
+const regularUser = {
+    email: "habib@umt.com",
+    fullname: {
+        username: {
+            firstname: "Habib",
+            lastname: "Tariq"
+        }
+    }
+}
+
+// Way of accessing nested Objects
+console.log("First Name:", regularUser.fullname.username.firstname);
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+console.log("\n\n");
 
 
 
