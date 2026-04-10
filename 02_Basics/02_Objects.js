@@ -58,7 +58,7 @@ console.log(tinderUser);
 
 const regularUser = {
     email: "habib@umt.com",
-    fullname: {
+    fname: {
         username: {
             firstname: "Habib",
             lastname: "Tariq"
@@ -70,7 +70,7 @@ const regularUser = {
 console.log("First Name:", regularUser.fullname.username.firstname);
 
 
-
+ 
  
 
 
