@@ -58,7 +58,7 @@ console.log(tinderUser);
 
 const regularUser = {
     email: "habib@umt.com",
-    fname: {
+    fullname: {
         username: {
             firstname: "Habib",
             lastname: "Tariq"
@@ -68,6 +68,14 @@ const regularUser = {
 
 // Way of accessing nested Objects
 console.log("First Name:", regularUser.fullname.username.firstname);
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+
+ // Array type merging of two Objects
+ const obj3 = {obj1, obj2}
+ console.log(obj3);
+ 
 
 
  
