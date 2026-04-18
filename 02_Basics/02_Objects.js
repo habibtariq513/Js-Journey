@@ -47,7 +47,6 @@ console.log('\nGreeting two:', JsUser.greetingtwo());
 
 console.log(" \n\n======= Objects Singleton ======= ");
 
-
 const tinderUser = {}
 
 tinderUser.name = "Habib"
@@ -77,7 +76,23 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = {obj1, obj2}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+console.log('\nObject combinition using Spread Operator:', obj3);
+
+// When data comes from Database
+const users = [
+    {
+        id: 1,
+        email: "hr@gog.com"
+    },
+    {
+        id: 2,
+        email: "hr@gog.com"
+    },
+    {
+        id: 3,
+        email: "hr@gog.com"
+    }
+]
 
 
 
