@@ -94,6 +94,26 @@ const users = [
     }
 ]
 
+users[1].email
+console.log("\nTinderuser Object:", tinderUser);
+
+// Keys Method
+console.log("Tinderuser Keys:", Object.keys(tinderUser));
+
+// Values Method
+console.log("Tinderuser Values:", Object.values(tinderUser));
+
+// Entries Method
+console.log("Tinderuser Entries:", Object.entries(tinderUser));
+
+// hasOwnProperty Method
+// --> Used to find the presence of a specific value rather than a looping over bundle of objects
+console.log("Tinderuser hasOwnProperty:", tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+
 
 
  
