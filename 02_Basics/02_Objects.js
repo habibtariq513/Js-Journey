@@ -111,6 +111,11 @@ console.log("Tinderuser Entries:", Object.entries(tinderUser));
 console.log("Tinderuser hasOwnProperty:", tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "JS",
+    price: 199
+}
+
 
 
 
