@@ -113,7 +113,8 @@ console.log("Tinderuser hasOwnProperty:", tinderUser.hasOwnProperty('isLoggedIn'
 
 const course = {
     coursename: "JS",
-    price: 199
+    price: "199",
+    courseInstructor: "Habib"
 }
 
 
