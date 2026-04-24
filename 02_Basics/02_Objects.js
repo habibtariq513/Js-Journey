@@ -130,8 +130,10 @@ console.log(instructor);
 console.log(price);
 console.log(coursename);
 
+// ==== JSON API Ingro ====
 
-
+// -> Random User me (Famous API): https://randomuser.me/
+// -> Json Formatter: https://jsonformatter.org/
 
 
  
