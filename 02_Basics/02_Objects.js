@@ -132,6 +132,7 @@ console.log(coursename);
 
 // ==== JSON API Ingro ====
 
+// -> JSON stands for JavaScript Object Notation
 // -> Random User me (Famous API): https://randomuser.me/
 // -> Json Formatter: https://jsonformatter.org/
 
