@@ -117,7 +117,9 @@ const course = {
     courseInstructor: "Habib"
 }
 
+// course.courseInstructor
 
+const {courseInstructor: instructor} = course
 
 
 
