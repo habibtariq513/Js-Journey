@@ -130,7 +130,7 @@ console.log(instructor);
 console.log(price);
 console.log(coursename);
 
-// ==== JSON API Ingro ====
+// ==== JSON API Intro ====
 
 // -> JSON stands for JavaScript Object Notation
 // -> Random User me (Famous API): https://randomuser.me/
