@@ -136,39 +136,4 @@ console.log(coursename);
 // -> Random User me (Famous API): https://randomuser.me/
 // -> Json Formatter: https://jsonformatter.org/
 
-
- 
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
 console.log("\n\n");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
