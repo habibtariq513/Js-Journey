@@ -24,10 +24,21 @@ function addTwoNum(num1, num2) {
 const result = addTwoNum(4, 5)
 console.log(`Result: ${result}`);
 
+console.log("\n");
+
+
 function loginUserMsg(username) {
+    if(!username) {
+        console.log(`Plz Enter Username`);        
+        return
+    }
     return `${username} just logged in`
 }
-console.log(loginUserMsg("Habib Tariq"));
+
+console.log(`With Arg: ${loginUserMsg("Habib Tariq")}`);
+console.log(`Without Arg: ${loginUserMsg()}`);
+
+
 
 
 
