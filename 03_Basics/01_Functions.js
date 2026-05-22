@@ -24,4 +24,10 @@ function addTwoNum(num1, num2) {
 const result = addTwoNum(4, 5)
 console.log(`Result: ${result}`);
 
+function loginUserMsg(username) {
+    return `${username} just logged in`
+}
+console.log(loginUserMsg("Habib Tariq"));
+
+
 
