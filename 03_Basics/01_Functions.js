@@ -38,6 +38,13 @@ function loginUserMsg(username) {
 console.log(`With Arg: ${loginUserMsg("Habib Tariq")}`);
 console.log(`Without Arg: ${loginUserMsg()}`);
 
+function calculateCartPrice(...price) {
+    return price
+}
+
+console.log(calculateCartPrice(20, 30, 400));
+
+
 
 
 
