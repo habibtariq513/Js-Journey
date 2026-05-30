@@ -57,6 +57,25 @@ function handleObj(anyObj) {
 }
 
 handleObj(user)
+/* 
+handleObj({
+    Username: "Habib",
+    price: 199
+}) --> We can alos pass the whole Object in this way too. 
+*/
+
+// ========= Arrays passing in Functions =========
+
+console.log("\n========= Arrays passing in Functions =========");
+const newArray = [200, 300, 100, 22]
+
+function handleArray(anyArr) {
+    console.log(`Array Elemet: ${anyArr[1]}`);
+}
+
+handleArray(newArray)
+// handleArray([200, 300, 100, 22])  --> We can alos passs the whole Array in this way too.
+
 
 
 
