@@ -44,6 +44,33 @@ function calculateCartPrice(val1, val2, ...price) {
 
 console.log(calculateCartPrice(20, 30, 400));
 
+// ========= Objects passing in Functions =========
+
+console.log("\n========= Objects passing in Functions =========");
+const user = {
+    Username: "Habib",
+    price: 199
+}
+
+function handleObj(anyObj) {
+    console.log(`Username is ${anyObj.Username} and Pricec is ${anyObj.price}`);    
+}
+
+handleObj(user)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
