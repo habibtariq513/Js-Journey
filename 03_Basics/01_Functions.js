@@ -38,8 +38,8 @@ function loginUserMsg(username) {
 console.log(`With Arg: ${loginUserMsg("Habib Tariq")}`);
 console.log(`Without Arg: ${loginUserMsg()}`);
 
-function calculateCartPrice(...price) {
-    return price
+function calculateCartPrice(val1, val2, ...price) {
+    return val1
 }
 
 console.log(calculateCartPrice(20, 30, 400));
