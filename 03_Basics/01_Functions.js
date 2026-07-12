@@ -6,7 +6,7 @@ function sayMyName() {
     console.log("b");
 }
 
-// sayMyName()
+
 
 // function addTwoNum(num1, num2) {
 //     console.log(`Sum: ${num1 + num2}`);    
