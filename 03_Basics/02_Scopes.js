@@ -9,3 +9,15 @@ function one() {
 }
 
 one()
+
+function addOne(num) {
+    return num + 1
+}
+
+addOne(4)
+
+const addTwo = function(num) {
+    return num + 2
+}
+
+addTwo(5)
