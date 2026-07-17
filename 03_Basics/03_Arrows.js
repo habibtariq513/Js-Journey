@@ -7,3 +7,10 @@ const user = {
 }
 
 user.welcomeMsg()
+user.username = "Habib Tariq"
+user.welcomeMsg()
+
+console.log("Output of this:", this); // Output: {}
+
+// Interview Question:
+// Global Object in Browser is "Window Object".
