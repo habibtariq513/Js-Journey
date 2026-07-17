@@ -14,3 +14,10 @@ console.log("Output of this:", this); // Output: {}
 
 // Interview Question:
 // Global Object in Browser is "Window Object".
+
+const chai = function() {
+    let username = "Atif"
+    console.log(this.username);    
+}
+chai()
+
