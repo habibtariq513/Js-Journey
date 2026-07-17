@@ -47,5 +47,7 @@ console.log("Output of this:", this); // Output: {}
 const addTwo = (num1, num2) => num1 + num2 
 console.log(addTwo(3, 4));
 
-
+// Returning an Object
+const objRet = () => ({Name: "Habib Bin Tariq"})
+console.log(objRet())
 
