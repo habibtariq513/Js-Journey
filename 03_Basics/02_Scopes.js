@@ -10,6 +10,7 @@ function one() {
 
 one()
 
+// ---- Different Waya of Function Declaration ---- 
 function addOne(num) {
     return num + 1
 }
