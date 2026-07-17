@@ -29,11 +29,23 @@ console.log("Output of this:", this); // Output: {}
 // }
 // chai()
 
-const chai = () => {
-    let username = "Atif"
-    console.log(this);    
-}
-chai()
+
+// const chai = () => {
+//     let username = "Atif"
+//     console.log(this);    
+// }
+// chai()
+
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+// console.log(addTwo(3, 4));
+
+
+// ---- Implicit Return ----
+const addTwo = (num1, num2) => num1 + num2 
+console.log(addTwo(3, 4));
 
 
 
