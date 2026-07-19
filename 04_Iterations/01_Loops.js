@@ -16,12 +16,22 @@ map.set("pk", "Pakistan")
 map.set("uk", "United Kingdom")
 map.set("in", "India")
 
-console.log(map);
+// console.log(map);
 
 // --------- for of loop on MAPS ---------
 for (const [key, val] of map) {
-    console.log(key, ':-', val);    
+    // console.log(key, ':-', val);    
 }
 
-
+// --------- for in Loop ---------
+const myObj = {
+    js: "JavaScript",
+    py: "Python",
+    cpp: "C++",
+    C_Hash: "C#"
+}
+for (const key in object) {
+     
+    
+}
 
