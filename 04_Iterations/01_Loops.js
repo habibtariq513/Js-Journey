@@ -23,15 +23,21 @@ for (const [key, val] of map) {
     // console.log(key, ':-', val);    
 }
 
-// --------- for in Loop ---------
+// --------- for in Loop on Objects ---------
 const myObj = {
     js: "JavaScript",
     py: "Python",
     cpp: "C++",
     C_Hash: "C#"
 }
-for (const key in object) {
-     
-    
+
+for (const key in myObj) {    
+    // console.log(`${key}: ${myObj[key]}`);    
+}
+
+// on Arrays
+const programming = ["js", "cpp", "java", "python"]
+for (const key in programming) {
+    console.log(`${key}: ${programming[key]}`); 
 }
 
