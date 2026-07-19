@@ -47,9 +47,35 @@ const coding = ["js", "cpp", "java", "python"]
 // Loop Using Simple function
 coding.forEach(function(item) {
     // console.log(item);    
-})
+});
 
 // Loop Using Arrow function
 coding.forEach((item) => {
-    console.log(item);    
+    // console.log(item);    
+});
+
+// Other parameters in ForEach loop
+coding.forEach((item, index, array) => {
+    // console.log(item, index, array);    
+});
+
+// Loop On Array
+const myCode = [
+    {
+        LangName: "Javascript",
+        LangExe: "js"
+    },
+    {
+        LangName: "Java",
+        LangExe: "java"
+    },
+    {
+        LangName: "C++",
+        LangExe: "cpp"
+    }
+]
+
+myCode.forEach((item) => {
+    console.log(item.LangExe);    
 })
+
