@@ -38,6 +38,18 @@ for (const key in myObj) {
 // on Arrays
 const programming = ["js", "cpp", "java", "python"]
 for (const key in programming) {
-    console.log(`${key}: ${programming[key]}`); 
+    // console.log(`${key}: ${programming[key]}`); 
 }
 
+// --------- for each Loop ---------
+const coding = ["js", "cpp", "java", "python"]
+
+// Loop Using Simple function
+coding.forEach(function(item) {
+    // console.log(item);    
+})
+
+// Loop Using Arrow function
+coding.forEach((item) => {
+    console.log(item);    
+})
