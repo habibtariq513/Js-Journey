@@ -26,7 +26,24 @@ const books = [
 ];
 
 // Books with genre = History
-console.log("Books with History Genre:\n", books.filter((bk) => bk.genre === 'History'));
+// console.log("Books with History Genre:\n", books.filter((bk) => bk.genre === 'History'));
 
 // Books after 2000 edition
-console.log("Books after 2000 edition:\n", books.filter((bk) => bk.edition >= 2000));
+// console.log("Books after 2000 edition:\n", books.filter((bk) => bk.edition >= 2000 && bk.genre === 'History'));
+
+
+// -------------- Maps --------------
+// Books after 2000 edition and History genre and the book title only
+console.log(books.filter(
+    (bk) => bk.edition >= 2000 && bk.genre === 'History'
+).map(
+    (bk) => bk.title
+));
+
+
+
+
+
+
+
+
