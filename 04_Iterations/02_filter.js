@@ -39,11 +39,3 @@ console.log(books.filter(
 ).map(
     (bk) => bk.title
 ));
-
-
-
-
-
-
-
-
