@@ -3,5 +3,5 @@ console.log(
     numbers
     .map((n) => n*10)
     .map((n) => n+1)
-    .filter()
+    .filter((n) => n>100) 
 );
