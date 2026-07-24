@@ -12,3 +12,8 @@ height: 100%;
     background-color: black;
     color: white;
 }
+
+.heading {
+    background-color: yellow;
+    color: blue;
+}
