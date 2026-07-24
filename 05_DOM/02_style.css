@@ -13,7 +13,13 @@ height: 100%;
     color: white;
 }
 
-.heading {
+#box {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+/* .heading {
     background-color: yellow;
     color: blue;
-}
+} */
