@@ -33,11 +33,28 @@ console.log(document.querySelector("div").getAttribute("id"))
 console.log(document.querySelectorAll("div")[0].style.backgroundColor = "brown")
 
 // -------- node.append --------
+// Add any element inside the div (or any element) at the END of node.
 // Step - 1: Element Creation
 let myBtn = document.createElement("button");
 myBtn.innerText="Click ME!";
 
 // Step - 2: Selection + Appendation
-console.log(document.querySelector("div").append(myBtn));
+// console.log(document.querySelector("div").append(myBtn));
+
+// -------- node.prepend --------
+// Add any element inside the div (or any element) at the START of node.
+// console.log(document.querySelector('div').prepend(myBtn));
+
+// -------- node.before --------
+// Add any element Outside the div (or any element) and before it.
+// console.log(document.querySelector('div').before(myBtn))
+
+// -------- node.after --------
+// Add any element Outside the div (or any element) and after it.
+// console.log(document.querySelector('div').after(myBtn))
+
+// -------- node.remove --------
+console.log(document.querySelector('ul').remove());
+
 
 
