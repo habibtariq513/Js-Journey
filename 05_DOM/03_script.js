@@ -27,7 +27,17 @@
 console.log(document.querySelector("div").getAttribute("id"))
 
 // -------- setAttrubute() --------
-console.log(document.querySelectorAll("div")[1].setAttribute("id", "newBox"))
+// console.log(document.querySelectorAll("div")[1].setAttribute("id", "newBox"))
 
 // -------- node.style --------
 console.log(document.querySelectorAll("div")[0].style.backgroundColor = "brown")
+
+// -------- node.append --------
+// Step - 1: Element Creation
+let myBtn = document.createElement("button");
+myBtn.innerText="Click ME!";
+
+// Step - 2: Selection + Appendation
+console.log(document.querySelector("div").append(myBtn));
+
+
