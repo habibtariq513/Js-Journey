@@ -23,7 +23,7 @@ document.getElementById('images').addEventListener('click', () =>{
 
 document.getElementById('owl').addEventListener('click', () =>{
     // console.log('OWL Clicked!');     
-    e.stopPropagation() // is se event bubble ho kr uper waley elements pr nahi jaye ga   
+    // e.stopPropagation() // is se event bubble ho kr uper waley elements pr nahi jaye ga   
 }, false) 
 
 
@@ -44,10 +44,20 @@ document.getElementById('owl').addEventListener('click', (e) => {
 // The preventDefault() method of the Event interface tells the user agent that the event is being explicitly handled, so its default action, such as page scrolling, link navigation, or pasting text, should not be taken.
 document.getElementById('google').addEventListener('click', (e) => {
     // console.log('Google Clickeeeed!');
-    e.preventDefault()
-    e.stopPropagation()
+    // e.preventDefault()
+    // e.stopPropagation()
 }, false)
 
 // ------------ Image Remover ------------
+
+document.querySelector('#images').addEventListener('click', (e) => {
+    // console.log(e.target.parentNode); // parentNode will give the parent tag
+    
+    if(e.target.tagName === 'IMG') {
+        console.log(e.target.tagName); // tagName will give the elements' tag name
+        let removeIt = e.target.parentNode
+        removeIt.remove()
+    }
+} )
 
 
