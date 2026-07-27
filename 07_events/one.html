@@ -15,8 +15,33 @@
             <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
             <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
             <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
-        </ul>
+        </ul>        
    </div>
 </body>
-<script></script>
+<script>
+
+    // We dont use the following way as it does not provide any extra features like Event Propagation.
+ 
+    // document.getElementById('owl').onclick = () => {
+    //     alert('owl clicked!')
+    // }
+
+    // 2nd and recommended approach
+    document.getElementById('owl').addEventListener('click', () => {
+        // console.log('OWL Clicked!');        
+    }, false) // false is a default parameter
+
+// ----------------- Event Propagation types -----------------
+//  1) Bubble Propagation
+//  2) Bubble Propagation
+    document.getElementById('images').addEventListener('click', () => {
+        console.log('Clicked inside ul');        
+    }, false) 
+
+    document.getElementById('owl').addEventListener('click', () => {
+        console.log('OWL Clicked!');        
+    }, false) 
+
+
+</script>
 </html>
