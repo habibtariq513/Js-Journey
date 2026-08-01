@@ -22,4 +22,3 @@ class Engineer extends Person {
 
 let e1 = new Engineer()
 e1.work()
-
