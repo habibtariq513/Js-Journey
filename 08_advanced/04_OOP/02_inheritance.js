@@ -11,11 +11,11 @@ class Person {
 
 class Engineer extends Person {    
     constructor(name) {
-        super(name)
+        super(name) // to invoke parent class constructor
     }
 
     work() {
-        super.eat()
+        super.eat() // accessing parent class function.
         console.log('Solves problem');        
     }
 }
