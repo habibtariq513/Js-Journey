@@ -1,9 +1,23 @@
-function mulBy5(num) {
-    return  num * 5;
+// JS objects have a special property called Prototype and It'll have some especial properties and methods.
+
+const employee = {
+    calTax() {
+        console.log('10% tax Deducted.');        
+    }
 }
 
-mulBy5.power = 2
+const ali = {
+    salary: 50000
+}
 
-console.log(mulBy5(5));
-console.log(mulBy5.power);
-console.log(mulBy5.prototype);
+ali.__proto__ = employee;
+
+const habib = {
+    calTax() {
+        console.log('20% Tax will be deducted.');        
+    }
+}
+
+// if prototype and objects have same methods then objects' methods will be used.
+habib.__proto__ = employee
+habib.calTax()
